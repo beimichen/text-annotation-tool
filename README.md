@@ -1,17 +1,17 @@
 # Text Annotation Tool
 
-A lightweight desktop GUI for labeling spans of text — built for creating
+A lightweight desktop GUI for labeling spans of text - built for creating
 training data for NLP tasks (NER, span classification, token tagging). Pure
 Python + Tkinter, no external services, no dependencies beyond the standard
 library.
 
 It was originally built to label job-advertisement text (skills, education,
 positions, requirements) for an NLP pipeline, but nothing about it is
-domain-specific — you supply your own documents, labels, and key bindings.
+domain-specific - you supply your own documents, labels, and key bindings.
 
 ## Features
 
-- Keyboard-driven labeling — bind any key to a label and color
+- Keyboard-driven labeling - bind any key to a label and color
 - Adjustable context window around each string being labeled
 - Manage **labels**, **key bindings**, and **contexts** through built-in dialogs
 - Apply / remove labels in bulk
@@ -50,4 +50,4 @@ p	Position	white	blue
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
